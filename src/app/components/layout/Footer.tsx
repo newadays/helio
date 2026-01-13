@@ -71,14 +71,14 @@ export function Footer() {
                   <li className="flex items-start gap-3">
                     <MapPin className="h-5 w-5 text-gray-400 flex-shrink-0 mt-0.5" />
                     <span className="text-sm leading-6 text-gray-400">
-                      123 Enterprise Blvd, Suite 500<br />
-                      Washington, DC 20001
+                      301 Congress Ave, #2200<br />
+                      Austin, TX 78701
                     </span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Phone className="h-5 w-5 text-gray-400 flex-shrink-0" />
                     <span className="text-sm leading-6 text-gray-400">
-                      (202) 555-0100
+                      (737) 206-6210
                     </span>
                   </li>
                   <li className="flex items-center gap-3">

@@ -127,8 +127,8 @@ export function ContactPage() {
                     <div>
                       <div className="font-semibold text-gray-900 mb-1">Corporate Headquarters</div>
                       <div className="text-gray-600">
-                        123 Enterprise Blvd, Suite 500<br />
-                        Washington, DC 20001
+                        301 Congress Ave, #2200<br />
+                        Austin, TX 78701
                       </div>
                     </div>
                   </div>
@@ -139,8 +139,8 @@ export function ContactPage() {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900 mb-1">Phone</div>
-                      <a href="tel:+12025550100" className="text-gray-600 hover:text-[#0891b2]">
-                        (202) 555-0100
+                      <a href="tel:+17372066210" className="text-gray-600 hover:text-[#0891b2]">
+                        (737) 206-6210
                       </a>
                     </div>
                   </div>
