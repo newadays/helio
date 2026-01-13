@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import logo from 'figma:asset/6d5ad23a4da3887f72f2b0d53d0eb5970a9c05c4.png';
+import logo from '../../../assets/logo.png';
 
 const navigation = [
   { name: 'About', href: '/about' },
