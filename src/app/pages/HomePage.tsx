@@ -3,6 +3,7 @@ import { Button } from '@/app/components/ui-workhelio/Button';
 import { SectionContainer } from '@/app/components/ui-workhelio/SectionContainer';
 import { ServiceCard } from '@/app/components/ui-workhelio/ServiceCard';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
+import { SEO } from '@/app/components/seo/SEO';
 
 const sectors = [
   {
@@ -70,6 +71,12 @@ const differentiators = [
 export function HomePage() {
   return (
     <div>
+      <SEO
+        title="Workhelio - Enterprise Solutions for Government & Industry"
+        description="Workhelio delivers enterprise solutions in government contracting, supply chain management, technology solutions, and infrastructure services. Headquartered in Austin, TX."
+        keywords="government contracting, supply chain management, logistics, technology solutions, infrastructure services, enterprise solutions, Austin TX"
+        canonical="https://workhelio.com"
+      />
       {/* Hero Section */}
       <section className="relative isolate overflow-hidden bg-gradient-to-br from-[#1a1f2e] to-[#2d3548] pt-20 pb-24 sm:pt-28 sm:pb-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

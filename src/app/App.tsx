@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Header } from '@/app/components/layout/Header';
 import { Footer } from '@/app/components/layout/Footer';
+import { StructuredData, workhelioOrganizationSchema } from '@/app/components/seo/StructuredData';
 import { HomePage } from '@/app/pages/HomePage';
 import { AboutPage } from '@/app/pages/AboutPage';
 import { DivisionsPage } from '@/app/pages/DivisionsPage';
@@ -12,6 +13,7 @@ import { ContactPage } from '@/app/pages/ContactPage';
 export default function App() {
   return (
     <Router>
+      <StructuredData schema={workhelioOrganizationSchema} />
       <div className="min-h-screen flex flex-col bg-white">
         <Header />
         <main className="flex-1">
