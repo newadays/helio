@@ -1,7 +1,7 @@
 import { PageHero } from '@/app/components/ui-workhelio/PageHero';
 import { SectionContainer } from '@/app/components/ui-workhelio/SectionContainer';
 import { Building2, TrendingUp, Users, Calendar, ExternalLink } from 'lucide-react';
-import michiganImage from '../../../assets/michigan.png';
+import michiganImage from '@/assets/michigan.png';
 
 const projects = [
   {
